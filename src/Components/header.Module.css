@@ -1,0 +1,300 @@
+.header {
+  width: 100vw;
+  height: 36.377rem;
+  display: flex;
+}
+.childheader p:nth-child(1) {
+  font-size: 2.25rem;
+}
+.childheader {
+  width: 49%;
+}
+.childheader2 {
+  width: 49%;
+}
+.childheader p span:nth-child(2) {
+  color: var(--orange);
+  font-size: 2.25rem;
+}
+.childheader p:nth-child(2) {
+  line-height: 3.123rem;
+  font-weight: 700;
+  font-size: 2.25rem;
+  width: 8.5rem;
+  height: 2.938rem;
+  position: absolute;
+  top: 2.75rem;
+  left: 2.063rem;
+}
+.childheader p:nth-child(3) {
+  line-height: 3.123rem;
+  font-weight: 700;
+  font-size: 3rem;
+  width: 33.688rem;
+  height: 8.662rem;
+  position: absolute;
+  top: 11.23rem;
+  left: 2.063rem;
+}
+.childheader p:nth-child(4) {
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 26.813rem;
+  height: 3.164rem;
+  position: absolute;
+  top: 21.375rem;
+  left: 2.625rem;
+}
+
+.childheader div div:nth-child(2) {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 26.39rem;
+  left: 13.75rem;
+  width: 10.313rem;
+  height: 2.981rem;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 0.938rem;
+  line-height: 1.099rem;
+  box-shadow: 0px 4px 5px 2px rgba(85, 85, 85, 0.25);
+}
+.childheader div button:nth-child(1) {
+  position: absolute;
+  top:26.39rem ;
+  left: 2.063rem;
+  width: 10.313rem;
+  height: 2.981rem;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.938rem;
+  line-height: 1.099rem;
+}
+/* ------ */
+.childheader ul:nth-child(1) {
+  position: absolute;
+  top: 2.35rem;
+  right: 13rem;
+  list-style: none;
+  width: 29.625rem;
+  height: 1.063rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.childheader ul li {
+  color: var(--orange);
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.938rem;
+  line-height: 1.099rem;
+}
+.childheader ul {
+  width: 49%;
+}
+.childheader2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.childheader2 > button{
+  float: right;
+  width: 9.375rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 1.5rem;
+  right:1.7rem ;
+  background-color: var(--orange);
+  font-weight: 700;
+  border-radius: 5px;
+}
+.childheader2 > img{
+ width: 22.375;
+ height: 22.375rem;
+ position: absolute;
+ top: 8.125rem;
+ right:3.375rem;
+ z-index: -1;
+}
+/* ------  */
+@media (max-width:925px){
+  .childheader p:nth-child(3) {
+    line-height: 3.123rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    width: 22.688rem;
+    height: 11.662rem;
+    text-align: center;
+    position: absolute;
+    top: 7.23rem;
+    left: 2.063rem;
+  }
+  .childheader p:nth-child(4) {
+    line-height: 1.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 19.813rem;
+    height: 3.164rem;
+    position: absolute;
+    top: 20.375rem;
+    left: 2.625rem;
+  }
+  .childheader div div:nth-child(2) {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 26.39rem;
+    left: 13rem;
+    width: 10.313rem;
+    height: 2.981rem;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 0.938rem;
+    line-height: 1.099rem;
+    box-shadow: 0px 4px 5px 2px rgba(85, 85, 85, 0.25);
+  }
+ 
+}
+
+@media (max-width:800px){
+  .header {
+    width: 100%;
+    height: 47.377rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .childheader p:nth-child(1) {
+    font-size: 2.25rem;
+  }
+  .childheader {
+    width: 100%;
+  }
+  .childheader2 {
+    width: 100%;
+  }
+  .childheader p span:nth-child(2) {
+    color: var(--orange);
+    font-size: 1.5rem;
+  }
+  .childheader p:nth-child(2) {
+    line-height: 3.123rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 8.5rem;
+    text-align: center;
+    position:absolute;
+    top: 0;
+    left: 3px;
+  }
+  .childheader p:nth-child(3) {
+    line-height: 3.123rem;
+    font-weight: 700;
+    font-size: 2rem;
+    height: 11.662rem;
+    width: 70%;
+    margin:2rem auto ;
+    position:static;
+    text-align: center;
+    display:flex ;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .childheader p:nth-child(4) {
+    display:flex ;
+    justify-content:center;
+    align-items: flex-start;
+    line-height: 1.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    height: 8.662rem;
+    width: 90%;
+    margin: auto ;
+    position:static;
+    text-align: center;
+  }
+  
+  .childheader div div:nth-child(2) {
+    position:relative;
+    top:0;
+    left: 34px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.313rem;
+    height: 2.981rem;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 0.938rem;
+    line-height: 1.099rem;
+    box-shadow: 0px 4px 5px 2px rgba(85, 85, 85, 0.25);
+  }
+  .childheader div {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .childheader div button:nth-child(1) {
+    position:relative;
+    top:0;
+    right:0;
+    width:8.313rem;
+    height: 2.981rem;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.938rem;
+    line-height: 1.099rem;
+  }
+  /* ------ */
+  .childheader ul:nth-child(1) {
+    position:relative;
+   left: 0%;
+    list-style: none;
+    width: 29.625rem;
+    height: 1.063rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .childheader ul li {
+    color: var(--orange);
+    flex: 1;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.938rem;
+    line-height: 1.099rem;
+  }
+  .childheader2 ul {
+    width: 50%;
+  }
+  .childheader2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .childheader2 > button{
+   display: none;
+  }
+  .childheader2 > img{
+   width: 15.375;
+   height: 15.375rem;
+   position:relative;
+   top:1rem;
+   right:0;
+   z-index: -1;
+  }
+}
+
