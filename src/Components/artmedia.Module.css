@@ -148,12 +148,12 @@
         margin:0px auto ;
     }
     .artborder > div:nth-child(3){
-      display: flex;
-      color: white;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 30%;
-    margin: 0px auto;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        margin: 0px auto;
     }
 }
 @media (max-width:600px){
@@ -248,7 +248,7 @@
         color: white;
         text-align: center;
         font-size:1rem;
-        line-height:1.75rem ;
+        line-height:1.2rem ;
         font-family: 'roboto';
         font-weight: 400;
         height: 2.9rem;
@@ -264,7 +264,7 @@
     margin: 0px auto;
     }
 }
-@media (max-width:400px){
+@media (max-width:409px){
     .art1 > div p:nth-child(1){
         font-size: 1.5rem;
         line-height: 2.5rem;
@@ -334,7 +334,7 @@
         color: white;
         text-align: center;
         font-size:1rem;
-        line-height:1.75rem ;
+        line-height:1.2rem ;
         font-family: 'roboto';
         font-weight: 400;
         height: 2.9rem;
@@ -349,4 +349,16 @@
     width: 50%;
     margin: 0px auto;
     }
+    .artborder {
+    display: flex;
+    /* border: 3px solid black; */
+    justify-content:space-evenly;
+    flex-direction: column ;
+    align-items:center;
+    width: 100%;
+    height: 22.25rem;
+    background: url(./../Images/gh.png);
+    z-index: -2;
+    /* opacity: 0.8; */
+}
 }

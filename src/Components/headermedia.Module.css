@@ -303,4 +303,7 @@
         font-family:'roboto' ;
         text-align: center;
     }
+    .rhead button:nth-child(2) {
+   display: none;
+    }
 }
