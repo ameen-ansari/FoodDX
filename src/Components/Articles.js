@@ -3,6 +3,7 @@ import './artitles.Module.css'
 import plate from './../Images/plate.png'
 import burger from './../Images/burger.png'
 import vecter from './../Images/Vector.png'
+import ourstory from './../Images/Vecto.png'
 import { Button } from '@mui/material'
 
 
@@ -39,6 +40,13 @@ export default function Articles() {
           <img src={burger} alt="" />
         </div>
         </div>
+    </div>
+    <div className="artborder">
+      <p>When a man's stomach is full it makes no
+difference whether he is rich or poor.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+<div><img src={ourstory} alt="" /><p>Watch Our Story</p></div>
     </div>
     </>
   )
