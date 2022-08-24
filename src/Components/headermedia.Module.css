@@ -1,6 +1,5 @@
 @media (max-width:950px){
     .lhead {
-        /* border: 3px solid black; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -19,13 +18,10 @@
     }
     .lhead p:nth-child(2) {
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         width: 70%;
         height:11.06rem;
         position: static;
-        /* top: 13.125rem; */
-        /* left: 6.25rem; */
         font-weight: 700;
         font-size: 1.8rem;
         line-height: 2.125rem;
@@ -33,13 +29,10 @@
     }
     .lhead p:nth-child(3) {
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         width:65%;
         height:5.31rem;
         position: static;
-        /* top: 23.81rem; */
-        /* left: 6.35rem; */
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.75rem;
@@ -51,8 +44,6 @@
         justify-content: space-between;
         align-items: center;
         position: static;
-        /* left: 6.25rem; */
-        /* top: 28.87rem; */
     }
     .lhead div button{
         margin: 0px 4px;
@@ -119,10 +110,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* border: 3px solid black; */
     }
     .lhead {
-        /* border: 3px solid black; */
         height: 50%;
         width: 100%;
         display: flex;
@@ -133,14 +122,11 @@
     .rhead {
         display: flex;
         height: 50%;
-        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
-        /* border: 3px solid black; */
         width: 100%;
     }
     .lhead p:nth-child(1) {
-        /* border: 3px solid black; */
         width: 8.5rem;
         height: 3.125rem;
         position: absolute;
@@ -152,44 +138,33 @@
         font-family: 'Quicksand', sans-serif;
     }
     .lhead p:nth-child(2) {
-        /* border: 3px solid black; */
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         width: 70%;
         height:8.06rem;
         position: static;
-        /* top: 13.125rem; */
-        /* left: 6.25rem; */
         font-weight: 700;
         font-size: 1.7rem;
         line-height: 2.125rem;
         font-family: 'Quicksand', sans-serif;
     }
     .lhead p:nth-child(3) {
-        /* border: 3px solid black; */
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         width:65%;
         height:5.31rem;
         position: static;
-        /* top: 23.81rem; */
-        /* left: 6.35rem; */
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.75rem;
         font-family:'roboto';
     }
     .lhead div:nth-child(4) {
-        /* border: 3px solid black; */
         height:4.31rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: static;
-        /* left: 6.25rem; */
-        /* top: 28.87rem; */
     }
     .lhead div button{
         margin: 0px 4px;
@@ -207,12 +182,12 @@
       height: 2.525rem;
     }
     .lhead div button:nth-child(2){
-      background-color:white;
-      border-radius: 2px;
-      font-weight: 500;
-      font-size: 0.95rem;
-      line-height: 1.1rem;
-      width:7.312rem;
+        background-color:white;
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 0.95rem;
+        line-height: 1.1rem;
+        width:7.312rem;
       height: 2.525rem;
       color: black;
       box-shadow: 0px 3px 3px 1px grey;
@@ -231,13 +206,101 @@
     }
     .rhead > img {
         position: static;
-        /* top: 8.125rem; */
-        /* right: 4rem; */
         border-radius: 20px;
         width: 17rem;
         height: 17rem;
         z-index: -1;
     }
 }
-
-/* ----->485px */
+@media (max-width:485px){
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lhead {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .rhead {
+        display: flex;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .rhead > img {
+        position: static;
+        border-radius: 20px;
+        width: 13rem;
+        height: 13rem;
+        z-index: -1;
+    }
+    .lhead p:nth-child(1) {
+        width: 8.5rem;
+        height: 3.125rem;
+        position: absolute;
+        top: 0.8375rem;
+        left: 1.85rem;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 3.125rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .lhead p:nth-child(2) {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        height:8.06rem;
+        position: static;
+        font-weight: 700;
+        font-size: 1.7rem;
+        line-height: 2.125rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .lhead p:nth-child(3) {
+        display: flex;
+        align-items: center;
+        width:80%;
+        height:5.31rem;
+        position: static;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        font-family:'roboto';
+    }
+    .lhead div:nth-child(4) {
+        height:4.31rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+    }
+    .hr {
+        width: 100%;
+        height: 10.31rem;
+        background-color: var(--orange);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hr > div > p:nth-child(1){
+        font-weight: 700;
+        line-height: 3.125rem;
+        font-size: 1.8rem;
+        font-family:'Quicksand' ;
+        text-align: center;
+    }
+    .hr > div > p:nth-child(2){
+        font-weight: 700;
+        line-height: 0.125rem;
+        font-size: 0.8rem;
+        font-family:'roboto' ;
+        text-align: center;
+    }
+}
