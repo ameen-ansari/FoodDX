@@ -49,6 +49,9 @@ export default function Header() {
         <div><p>+1234</p><p>Savings</p></div>
         <div><p>+1234</p><p>Savings</p></div>
     </div>
+    <div className='burger'>
+      <p>&#8801;</p>
+    </div>
     </>
   )
 }

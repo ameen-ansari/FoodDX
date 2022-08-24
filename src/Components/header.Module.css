@@ -135,3 +135,11 @@
     font-family:'roboto' ;
     text-align: center;
 }
+.burger {
+    display: none;
+    position: absolute;
+    top:1.3rem ;
+    right:6.2rem ;
+    font-size: 2rem;
+    font-weight: 700;
+}

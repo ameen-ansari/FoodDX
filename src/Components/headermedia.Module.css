@@ -213,6 +213,14 @@
     }
 }
 @media (max-width:485px){
+    .burger {
+        display:block;
+        position: absolute;
+        top:0.83rem ;
+        right:2.2rem ;
+        font-size: 2rem;
+        font-weight: 700;
+    }
     .header {
         flex-direction: column;
         justify-content: center;
