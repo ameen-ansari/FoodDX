@@ -1,5 +1,6 @@
 import React from 'react'
 import './artitles.Module.css'
+import './artmedia.Module.css'
 import plate from './../Images/plate.png'
 import burger from './../Images/burger.png'
 import vecter from './../Images/Vector.png'
