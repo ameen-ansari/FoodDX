@@ -15,7 +15,6 @@ function App() {
       <Articles />
       <Bodypart />
       <Testi />
-    {/* <Slider /> */}
     </>
   )
 }
