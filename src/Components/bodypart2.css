@@ -20,7 +20,7 @@
   width: 48%;
 }
 .body2b {
-  margin: 3rem auto;
+  margin: 2rem auto;
   display: flex;
   gap: 2rem;
   padding: 1rem;
@@ -47,6 +47,13 @@
     line-height: 28px;
     text-align: center;
   }
+  .body2b > div p:nth-child(1) {
+    font-family: 'Quicksand';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
 }
 .body2c {
   width: 100vw;
@@ -63,7 +70,7 @@
   font-size: 28px;
   line-height: 28px;
 }
-.body2c button {
+.body2c button:nth-child(2) {
   background-color: var(--orange);
   border-radius: 2px;
   font-weight: 700;
@@ -111,8 +118,13 @@
   align-items: center;
 }
 .body2d div input:nth-child(1) {
-  outline: 0;
+    font-weight: 700;
+  font-size: 15px;
+  line-height: 40px;
+  outline:none;
   border: none;
+  height: 40px;
+  width: 150px;
   padding: auto 3rem;
   box-shadow: 0 0 2px 2px grey;
 }

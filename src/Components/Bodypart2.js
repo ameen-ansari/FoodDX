@@ -41,13 +41,7 @@ export default function Bodypart2() {
         <p>Hurry up! Subscribe our newsletter and get 25% Off</p>
         <p>Limited time offer for this month. No credit card required.</p>
         <div>
-        <TextField
-          required
-          id="outlined-required"
-          label="Email Address Here"
-          size="small"
-
-        />
+        <input type="text" placeholder='Email Address Here' />
         <Button variant="contained" disableElevation>
            Subscribe
           </Button>
