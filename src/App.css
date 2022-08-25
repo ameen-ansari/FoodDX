@@ -10,5 +10,5 @@ body {
   width: 100vw;
   --orange :#F46A06;
   /* box-sizing: border-box; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }

@@ -294,10 +294,13 @@
         background-color: var(--orange);
         color: white;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding: 0px 5rem;
         align-items: center;
     }
     .hr > div > p:nth-child(1){
+        width: 100%;
         font-weight: 700;
         line-height: 3.125rem;
         font-size: 1.8rem;

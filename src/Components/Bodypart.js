@@ -21,27 +21,27 @@ export default function Bodypart() {
             <img src={child1} alt="" />
             <p>Rainbow Vegetable Sandwich</p>
             <p>Time: 15 - 20 Minutes | Serves: 1</p>
-            <p> $10.50  <span><del>$11.70 </del></span></p>
+            <p> $8.50  <span><del>$10.70 </del></span></p>
             <hr />
             <Button endIcon={<ShoppingBasketIcon />} variant="contained" disableElevation>
             Order Now
           </Button>
         </div>
         <div>
-            <img src={child1} alt="" />
+            <img src={child2} alt="" />
             <p>Rainbow Vegetable Sandwich</p>
             <p>Time: 15 - 20 Minutes | Serves: 1</p>
-            <p> $10.50  <span><del>$11.70 </del></span></p>
+            <p> $9.50  <span><del>$11.70 </del></span></p>
             <hr />
             <Button endIcon={<ShoppingBasketIcon />} variant="contained" disableElevation>
             Order Now
           </Button>
         </div>
         <div>
-            <img src={child1} alt="" />
+            <img src={child3} alt="" />
             <p>Rainbow Vegetable Sandwich</p>
             <p>Time: 15 - 20 Minutes | Serves: 1</p>
-            <p> $10.50  <span><del>$11.70 </del></span></p>
+            <p> $10.50  <span><del>$12.70 </del></span></p>
             <hr />
             <Button endIcon={<ShoppingBasketIcon />} variant="contained" disableElevation>
             Order Now
