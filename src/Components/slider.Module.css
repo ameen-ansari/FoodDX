@@ -45,14 +45,14 @@
       width: 95%;
       height: 5rem;
       text-align: center;
-      line-height: 1rem;
+      /* line-height: 1rem; */
       font-weight: 400;
       font-size: 15px;
       margin: auto;
     }
     .slides div p:nth-child(3) {
         height: 4rem;
-      width: 100%;
+      width: 80%;
       color: var(--orange);
       font-weight: 700;
       line-height: 21px;
