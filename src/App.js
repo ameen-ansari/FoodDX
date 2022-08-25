@@ -3,10 +3,10 @@
 import './App.css'
 import Articles from './Components/Articles'
 import Bodypart from './Components/Bodypart'
+import Bodypart2 from './Components/Bodypart2'
 import Header from './Components/Header'
 import Testi from './Components/Testi'
 // import Slider from './Components/Slider'
-
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Articles />
       <Bodypart />
       <Testi />
+      <Bodypart2 />
     </>
   )
 }
