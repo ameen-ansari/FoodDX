@@ -4,7 +4,7 @@ import './App.css'
 import Articles from './Components/Articles'
 import Bodypart from './Components/Bodypart'
 import Header from './Components/Header'
-// import Testi from './Components/Testi'
+import Testi from './Components/Testi'
 // import Slider from './Components/Slider'
 
 
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Articles />
       <Bodypart />
-      {/* <Testi /> */}
+      <Testi />
     {/* <Slider /> */}
     </>
   )
