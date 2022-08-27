@@ -1,5 +1,5 @@
 import React from 'react'
-import logincss from "./login.module.css"
+import logincss from "./Signup.module.css"
 import { Button } from '@mui/material'
 import img1 from '../Images/fb.png'
 // import img2 from '../Images/google.png'
@@ -14,23 +14,30 @@ export default function Login() {
             <div className={logincss.login}>
                 <div className={logincss.head}>
                     <p>Welcome to <span>FoodDX</span></p>
-                    <p>No Account ?<Link to="/signup"><span> Sign up</span></Link></p>
+                    <p>Have An Account ?<Link to="/login"><span> Sign in</span></Link></p>
                 </div>
-                <p>Sign in</p>
+                <p>Sign up</p>
                 <div>
-                        <img src={img3} alt="" />
+                    <img src={img3} alt="" />
                     <img src={img1} alt="" />
                     <img src={img4} alt="" />
                 </div>
                 <p>Enter username or email  address</p>
                 <input type="text" placeholder='Enter username or email address' />
+                <div>
+                    <div>
+                    <p>User Name</p>
+                    <input type="text" placeholder='User Name' />
+                    </div>
+                    <div>
+                    <p>Contact #</p>
+                    <input type="text" placeholder='Contact Number' />
+                    </div>
+                </div>
                 <p>Enter your Password</p>
                 <input type="text" placeholder='Enter your Password' />
-                <div>
-                    <p>Forgot Password </p>
-                </div>
                 <Button variant="contained" disableElevation>
-                    Sign In
+                    Sign up
                 </Button>
             </div>
         </div>
