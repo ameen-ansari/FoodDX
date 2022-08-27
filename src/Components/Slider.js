@@ -1,4 +1,4 @@
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './slider.Module.css'
 import woman from './../Images/woman.png'
@@ -20,31 +20,31 @@ export default class SimpleSlider extends Component {
           <div className="slideschild">
             <img src={woman} alt="" />
             <p>
-            "Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts Separated they
-            live."
-          </p>
-          <p>Chiranjit Hazarika - Web Designer</p>
+              "Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts Separated they
+              live."
+            </p>
+            <p>Chiranjit Hazarika - Web Designer</p>
           </div>
           <div className="slideschild">
             <img src={woman} alt="" />
             <p>
-            1"Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts Separated they
-            live."
-          </p>
-          <p>Chiranjit Hazarika - Web Designer</p>
+              1"Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts Separated they
+              live."
+            </p>
+            <p>Chiranjit Hazarika - Web Designer</p>
           </div>
           <div className="slideschild">
             <img src={woman} alt="" />
             <p>
-            1"Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts Separated they
-            live."
-          </p>
-          <p>Chiranjit Hazarika - Web Designer</p>
+              1"Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts Separated they
+              live."
+            </p>
+            <p>Chiranjit Hazarika - Web Designer</p>
           </div>
-          
+
         </Slider>
       </div>
     );

@@ -4,6 +4,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+     
     }
     .lhead p:nth-child(1) {
         width: 8.5rem;
@@ -28,6 +29,7 @@
         font-family: 'Quicksand', sans-serif;
     }
     .lhead p:nth-child(3) {
+    z-index: -1;
         display: flex;
         align-items: center;
         width:65%;
@@ -212,8 +214,8 @@
         font-size: 0.97rem;
     }
     .rhead > img {
-        position: static;
         border-radius: 20px;
+        position: static;
         width: 17rem;
         height: 17rem;
         z-index: -1;
