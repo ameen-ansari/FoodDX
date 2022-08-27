@@ -22,13 +22,11 @@ export default function Homepage() {
       posi.style.left = "0vw"
       xd.style.color = "white"
       burger.innerHTML = '&#9747;'
-      body.style.overflow = 'hidden'
     } else {
       posi.style.display = 'none'
       posi.style.left = "-75vw"
       xd.style.color = "var(--orange)"
       burger.innerHTML = '&#8801;'
-      body.style.overflowY = 'scroll'
     }
     setofcan(!ofcan)
   }
