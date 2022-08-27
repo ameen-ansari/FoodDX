@@ -3,13 +3,14 @@ import './header.Module.css'
 import { Button } from '@mui/material'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import './headermedia.Module.css'
+import { Link } from "react-router-dom";
 import './Offcanvas.css'
 
 export default function Header(props) {
 
   return (
     <>
-    <div className="Offcanvas">
+      <div className="Offcanvas">
         <ul>
           <li>Home</li>
           <li>About Us</li>
@@ -17,9 +18,11 @@ export default function Header(props) {
           <li>Reviews</li>
           <li>FAQ</li>
         </ul>
-        <Button variant="contained" disableElevation>
-          Sign In
-        </Button>
+        <Link to="/login">
+          <Button variant="contained" disableElevation>
+            Sign In
+          </Button>
+        </Link>
       </div>
       <div className="header">
         <div className="lhead">
@@ -55,9 +58,12 @@ export default function Header(props) {
             <li>Reviews</li>
             <li>FAQ</li>
           </ul>
-          <Button className="bnnb" variant="contained" disableElevation>
-            Log In
-          </Button>
+          <Link to="/login">
+            <Button variant="contained" disableElevation className="bnnb">
+              Log In
+            </Button>
+          </Link>
+
           <img src={img1} alt="" />
         </div>
       </div>
@@ -82,7 +88,7 @@ export default function Header(props) {
       <div className="burger" onClick={props.showof}>
         <p>&#8801;</p>
       </div>
-      
+
     </>
   )
 }
