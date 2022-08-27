@@ -13,6 +13,7 @@ export default function Homepage() {
     var posi = document.getElementsByClassName('Offcanvas')[0]
     var burger = document.getElementsByClassName('burger')[0]
     var btttn = document.getElementsByClassName('bnnb')[0]
+    var body = document.getElementsByTagName('body')[0]
     var xd = document.getElementById('xd')
     if (ofcan === true) {
       btttn.style.display = "none"
@@ -21,11 +22,13 @@ export default function Homepage() {
       posi.style.left = "0vw"
       xd.style.color = "white"
       burger.innerHTML = '&#9747;'
+      body.style.overflow = 'hidden'
     } else {
       posi.style.display = 'none'
       posi.style.left = "-75vw"
       xd.style.color = "var(--orange)"
       burger.innerHTML = '&#8801;'
+      body.style.overflowY = 'scroll'
     }
     setofcan(!ofcan)
   }

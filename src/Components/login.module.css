@@ -11,7 +11,7 @@
 
 .login {
   width: 50vw;
-  height: 80vh;
+  height: 36rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -140,7 +140,7 @@
   
   .login {
     width: 85vw;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -186,11 +186,13 @@
   .login div:nth-child(1) > p:nth-child(1) {
     width:75% ;
     font-family: 'Quicksand';
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 28px;
+    text-align: start;
   }
   .login div:nth-child(1) > p:nth-child(2) {
+    text-align: start;
     width:25% ;
     font-family: 'roboto';
     font-weight: 300;
