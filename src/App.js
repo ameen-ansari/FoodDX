@@ -1,10 +1,12 @@
 import './App.css'
-import Homepage from './Components/Homepage'
+import Login from './Components/Login'
+// import Homepage from './Components/Homepage'
 
 function App() {
   return (
     <>
-    <Homepage />
+    {/* <Homepage /> */}
+    <Login />
     </>
   )
 }

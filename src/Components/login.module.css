@@ -1,0 +1,200 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../Images/loginbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-right: 5%;
+  padding: 2rem;
+
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.659);
+}
+.head{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.login div:nth-child(1) > p:nth-child(1) {
+  width:70% ;
+  font-family: 'Quicksand';
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+}
+.login div:nth-child(1) > p:nth-child(2) {
+  width:30% ;
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+.login > div > p > span {
+  color: var(--orange);
+}
+.login p:nth-child(2) {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+}
+.login div:nth-child(3) {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.login div:nth-child(3) img:nth-child(1) {
+  width: 250px;
+  height: 45px;
+ 
+}
+.login div:nth-child(3) img {
+  width: 50px;
+  height: 45px;
+  margin: 0rem 0.3rem;
+}
+.login p:nth-child(4) {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.login input:nth-child(5) {
+  width: 80%;
+  height: 45px;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  border-color: gray;
+  outline: 0;
+}
+.login p:nth-child(6) {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.login input:nth-child(7) {
+  width: 80%;
+  height: 45px;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  border-color: gray;
+  outline: 0;
+}
+.login div:nth-child(8) {
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19.5px;
+  color: var(--orange);
+  float: right;
+  width: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.login button:nth-child(9) {
+  align-self: flex-end;
+  width: 165px;
+  height: 45px;
+  margin: 0.4rem 0px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--orange);
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+
+@media (max-width:700px){
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Images/loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .login {
+    width: 85vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-right: 7%;
+    padding: 2rem;
+  
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.659);
+  }
+  .login input:nth-child(5) {
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 300;
+    border-color: gray;
+    outline: 0;
+    text-align: center;
+    align-self: center;
+  }
+  .login input:nth-child(7) {
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 300;
+    border-color: gray;
+    outline: 0;
+    text-align: center;
+    align-self: center;
+  }
+  .login div:nth-child(3) img:nth-child(1) {
+    width: 150px;
+    height: 45px;
+   
+  }
+  .login div:nth-child(3) img {
+    width: 35px;
+    height: 45px;
+    margin: 0rem 0.3rem;
+  }
+  .login div:nth-child(1) > p:nth-child(1) {
+    width:75% ;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .login div:nth-child(1) > p:nth-child(2) {
+    width:25% ;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19.5px;
+  }
+}
