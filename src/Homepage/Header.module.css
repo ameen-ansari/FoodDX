@@ -50,8 +50,8 @@
   flex-direction: column;
 }
 .rhead img:nth-child(3) {
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 90%;
 }
 .lhead p span:nth-child(1) {
   color: var(--orange);
@@ -87,6 +87,7 @@
 }
 .lhead div:nth-child(4) {
   display: flex;
+  width: 100%;
 }
 .lhead div button {
   margin: 0px 4px;
@@ -121,15 +122,33 @@
   font-family: 'roboto';
   text-align: center;
 }
-.fg{
+.btns button:nth-child(1) {
+  background-color: var(--orange);
+  color: white;
+  font-weight: 700;
+  font-size:1rem;
+  line-height: 1rem;
+  width:40%;
+  height: 3.125rem;
+}
+.btns button:nth-child(2) {
   background-color:white;
   color:black;
-  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px grey;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
+  width:40%;
+  height: 3.125rem;
 }
-.fgfg{
-  background-color:var(--orange);
-  color:white;
-  cursor: pointer;
+.Offcanvas button:nth-child(2){
+  background-color:white;
+  color:black;
+  font-weight: 700;
+  font-size:1rem;
+  line-height: 1rem;
+  width:40%;
+  height: 3.125rem;
 }
 
 @media (max-width: 800px) {
@@ -410,8 +429,8 @@
   gap: 1.3rem;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   transition-property: all;
   transition-duration: 1s;
   display: none;
@@ -419,14 +438,14 @@
   /* z-index:-16; */
 }
 /* .position { */
-  /* left:-75vw; */
+/* left:-75vw; */
 /* } */
-.Offcanvas ul{
+.Offcanvas ul {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
-  height:60%;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
   width: 100%;
   list-style: none;
   font-weight: 700;
@@ -434,14 +453,14 @@
   color: white;
 }
 .Offcanvas ul li {
-  width:80%;
+  width: 80%;
   margin: auto;
 }
-.Offcanvas button{
-  background-color:white;
+.Offcanvas button {
+  background-color: white;
   border-radius: 2px;
   font-weight: 500;
-  font-size:18px;
+  font-size: 18px;
   line-height: 1.1rem;
   width: 7.312rem;
   height: 2.125rem;

@@ -1,8 +1,7 @@
 import img1 from './../Images/img1.png'
 import headCss from './Header.module.css'
 import { Button } from '@mui/material'
-import Button1 from './Button1'
-import Button2 from './Button2'
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import { useState } from 'react'
 
 export default function Header() {
@@ -47,9 +46,17 @@ export default function Header() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
                         purus a odio finibus bibendum amet leo.
                     </p>
-                    <div>
-                        <Button2 className={headCss.fgfg} value="Order Now" />
-                        <Button1 className={headCss.fg} value="Learn More >" />
+                    <div className={headCss.btns}>
+                        <Button
+                            endIcon={<ShoppingBasketIcon />}
+                            variant="contained"
+                            disableElevation
+                        >
+                            Order Now
+                        </Button>
+                        <Button variant="contained" disableElevation>
+                            Learn  more&gt;
+                        </Button>
                     </div>
                 </div>
                 <div className={headCss.rhead}>
