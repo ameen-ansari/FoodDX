@@ -1,0 +1,19 @@
+div button:nth-child(1) {
+  background-color: var(--orange);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.1rem;
+  width: 10.312rem;
+  height: 3.125rem;
+  cursor: pointer;
+}
+@media (max-width: 850px) {
+  div button:nth-child(1) {
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    width: 7.312rem;
+    height: 2.5rem;
+  }
+}
