@@ -4,7 +4,6 @@ import Bodypart from './Bodypart'
 import Bodypart2 from './Bodypart2'
 import Header from './Header'
 import Testi from './Testi'
-// import Offcanvas from './Offcanvas'
 
 
 export default function Homepage() {
@@ -16,14 +15,10 @@ export default function Homepage() {
     var body = document.getElementsByTagName('body')[0]
     var xd = document.getElementById('xd')
     if (ofcan === true) {
-      btttn.style.display = "none"
-      posi.style.display = 'flex'
-      posi.style.height = '100vh'
       posi.style.left = "0vw"
       xd.style.color = "white"
       burger.innerHTML = '&#9747;'
     } else {
-      posi.style.display = 'none'
       posi.style.left = "-75vw"
       xd.style.color = "var(--orange)"
       burger.innerHTML = '&#8801;'

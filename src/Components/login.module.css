@@ -125,6 +125,10 @@
   border: none;
   color: white;
 }
+.head p:nth-child(2) span:nth-child(1) {
+  color: var(--orange);
+  text-decoration: none;
+}
 
 @media (max-width:700px){
   .container {

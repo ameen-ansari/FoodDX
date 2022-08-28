@@ -5,18 +5,20 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import { useState } from 'react'
 
 export default function Header() {
-    const [ofcan, setofcan] = useState(false)
+    const [ofcan, setofcan] = useState(true)
     var ofc = () => {
-        var ofcc = document.getElementById('zxx')
+        var offcanvascontainer = document.getElementById('offcanvascontainer')
+        var lehead = document.getElementById('zxxx')
         var xd = document.getElementById('xd')
         var burger = document.getElementById('burger')
         if (ofcan === true) {
-            ofcc.style.display = 'flex'
             xd.style.color = 'white'
+            offcanvascontainer.style.left = '0vw'
             burger.innerHTML = '&#9747;'
 
         } else {
-            ofcc.style.display = 'none'
+            offcanvascontainer.style.left = '-75vw'
+            lehead.style.display = 'flex'
             xd.style.color = '#F46A06'
             burger.innerHTML = '&#8801;'
         }
@@ -24,7 +26,7 @@ export default function Header() {
     }
     return (
         <>
-            <div id="zxx" className={`${headCss.Offcanvas} ${headCss.position}`}>
+            <div id="offcanvascontainer" className={`${headCss.offcanvas}`}>
                 <ul>
                     <li>Home</li>
                     <li>About Us</li>
@@ -37,9 +39,9 @@ export default function Header() {
                 </Button>
             </div>
             <div className={headCss.header}>
-                <div className={headCss.lhead}>
+                <div id="zxxx" className={headCss.lhead}>
                     <p>
-                        Food<span id="xd">XD</span>
+                        Food<span id="xyd">XD</span>
                     </p>
                     <p>Order food from favourite restaurants near you.</p>
                     <p>
@@ -71,12 +73,15 @@ export default function Header() {
                         Log In
                     </Button>
                     <img src={img1} alt="" />
+                    <p>
+                        Food<span className={headCss.xd} id="xd">XD</span>
+                    </p>
                 </div>
                 <div className={headCss.burger} onClick={ofc}>
                     <p id="burger">&#8801;</p>
                 </div>
             </div>
-            <div className={headCss.hr}>
+            {/* <div className={headCss.hr}>
                 <div>
                     <p>+1234</p>
                     <p>Savings</p>
@@ -93,7 +98,7 @@ export default function Header() {
                     <p>+1234</p>
                     <p>Savings</p>
                 </div>
-            </div>
+            </div> */}
 
 
         </>

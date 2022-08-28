@@ -4,7 +4,6 @@ import { Button } from '@mui/material'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import './headermedia.Module.css'
 import { Link } from "react-router-dom";
-import './Offcanvas.css'
 
 export default function Header(props) {
 

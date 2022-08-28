@@ -24,14 +24,14 @@ export default function Login() {
                 </div>
                 <p>Enter username or email  address</p>
                 <input type="text" placeholder='Enter username or email address' />
-                <div>
+                <div className={logincss.twoinputs} >
                     <div>
-                    <p>User Name</p>
-                    <input type="text" placeholder='User Name' />
+                        <p>User Name</p>
+                        <input type="text" placeholder='User Name' />
                     </div>
                     <div>
-                    <p>Contact #</p>
-                    <input type="text" placeholder='Contact Number' />
+                        <p>Contact #</p>
+                        <input type="text" placeholder='Contact Number' />
                     </div>
                 </div>
                 <p>Enter your Password</p>
