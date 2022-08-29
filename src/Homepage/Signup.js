@@ -13,8 +13,8 @@ export default function Login() {
         <div className={logincss.container}>
             <div className={logincss.login}>
                 <div className={logincss.head}>
-                    <p>Welcome to <span>FoodDX</span></p>
-                    <p>Have An Account ?<Link to="/login"><span> Sign in</span></Link></p>
+                    <p>Welcome to <span style={{ color: "var(--orange)" }}>FoodDX</span></p>
+                    <p>Have An Account ?<Link to="/login" style={{ textDecoration: 'none', color: "var(--orange)" }}><span> Sign in</span></Link></p>
                 </div>
                 <p>Sign up</p>
                 <div>
@@ -23,19 +23,19 @@ export default function Login() {
                     <img src={img4} alt="" />
                 </div>
                 <p>Enter username or email  address</p>
-                <input type="text" placeholder='Enter username or email address' />
+                <input style={{height:'45px'}} type="text" placeholder='Enter username or email address' />
                 <div className={logincss.twoinputs} >
                     <div>
                         <p>User Name</p>
-                        <input type="text" placeholder='User Name' />
+                        <input  type="text" placeholder='User Name' />
                     </div>
                     <div>
                         <p>Contact #</p>
-                        <input type="text" placeholder='Contact Number' />
+                        <input  type="text" placeholder='Contact Number' />
                     </div>
                 </div>
                 <p>Enter your Password</p>
-                <input type="text" placeholder='Enter your Password' />
+                <input style={{height:'45px'}} type="text" placeholder='Enter your Password' />
                 <Button variant="contained" disableElevation>
                     Sign up
                 </Button>

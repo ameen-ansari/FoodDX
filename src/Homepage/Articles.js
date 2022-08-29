@@ -1,6 +1,6 @@
 import React from 'react'
-import './artitles.Module.css'
-import './artmedia.Module.css'
+import './Artitles.css'
+import './Artmedia.css'
 import plate from './../Images/plate.png'
 import burger from './../Images/burger.png'
 import vecter from './../Images/Vector.png'
@@ -21,7 +21,7 @@ export default function Articles() {
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-              purus a odio finibus bibendum amet leo.{' '}
+              purus a odio finibus bibendum amet leo.
             </p>
             <Button variant="contained" disableElevation>
               Learn More &gt;

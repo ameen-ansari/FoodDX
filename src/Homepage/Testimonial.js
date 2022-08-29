@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from './Slider'
-import './testi.Module.css'
+import './Testimonial.css'
 
 export default function Testi() {
   return (

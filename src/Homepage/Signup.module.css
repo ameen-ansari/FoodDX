@@ -46,7 +46,6 @@
 .head p:nth-child(2) span:nth-child(1) {
   color: var(--orange);
   text-decoration: none;
-  
 }
 .login p:nth-child(2) {
   font-family: 'Quicksand';
@@ -156,16 +155,13 @@
     width:100%;
   }
   .login input:nth-child(5) {
-    height: 45px;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
     border-color: gray;
-    align-self: center;
     outline: 0;
   }
-  .login input:nth-child(5) {
-    height: 45px;
+  .login input:nth-child(8) {
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
@@ -178,31 +174,17 @@
     width: 100%;
     display: flex;
     justify-content:space-between;
-    align-items: center;
   }
   .twoinputs input{
-    width: 35vw;
+    width: 32vw;
     height: 45px;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
     border-color: gray;
     align-self: flex-end;
-    text-align: center;
     outline: 0;
   }
-  
-  /* .login div:nth-child(6) input {
-    width: 95%;
-    height: 45px;
-    border-radius: 7px;
-    font-size: 14px;
-    font-weight: 300;
-    border-color: gray;
-    align-self: flex-end;
-    text-align: center;
-    outline: 0;
-  } */
   .login p {
     font-family: 'Quicksand';
     font-weight: 700;
