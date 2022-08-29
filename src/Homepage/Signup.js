@@ -35,7 +35,7 @@ export default function Login() {
                     </div>
                 </div>
                 <p>Enter your Password</p>
-                <input style={{height:'45px'}} type="text" placeholder='Enter your Password' />
+                <input style={{height:'45px'}} type="password" placeholder='Enter your Password' />
                 <Button variant="contained" disableElevation>
                     Sign up
                 </Button>

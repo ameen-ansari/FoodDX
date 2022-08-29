@@ -25,7 +25,7 @@ export default function Login() {
                 <p>Enter username or email  address</p>
                 <input style={{height:'45px'}} type="text" placeholder='Enter username or email address' />
                 <p>Enter your Password</p>
-                <input style={{height:'45px'}} type="text" placeholder='Enter your Password' />
+                <input style={{height:'45px'}} type="password" placeholder='Enter your Password' />
                 <div>
                     <p>Forgot Password </p>
                 </div>
