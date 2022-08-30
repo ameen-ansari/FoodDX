@@ -17,8 +17,8 @@ export default function Header(props) {
           <li>Reviews</li>
           <li>FAQ</li>
         </ul>
-        <Link to="/login" style={{textDecoration:'none'}}>
-          <Button variant="contained" disableElevation>
+        <Link to="/login" style={{ textDecoration: 'none' }}>
+          <Button style={{ backgroundColor: "white", color: 'black', }} variant="contained" disableElevation>
             Sign In
           </Button>
         </Link>
@@ -57,12 +57,11 @@ export default function Header(props) {
             <li>Reviews</li>
             <li>FAQ</li>
           </ul>
-          <Link to="/login" style={{textDecoration:'none'}}>
-            <Button variant="contained" style={{backgroundColor:"var(--orange)",color:'white',}} disableElevation className="bnnb">
+          <Link to="/login" style={{ textDecoration: 'none' }}>
+            <Button variant="contained" style={{ backgroundColor: "var(--orange)", color: 'white', }} disableElevation className="bnnb">
               Log In
             </Button>
           </Link>
-
           <img src={img1} alt="" />
         </div>
       </div>

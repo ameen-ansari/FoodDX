@@ -23,7 +23,7 @@ export default function Login() {
                     <img src={img4} alt="" />
                 </div>
                 <p>Enter username or email  address</p>
-                <input style={{height:'45px'}} type="text" placeholder='Enter username or email address' />
+                <input type="text" placeholder='Enter username or email address' />
                 <div className={logincss.twoinputs} >
                     <div>
                         <p>User Name</p>
@@ -35,7 +35,7 @@ export default function Login() {
                     </div>
                 </div>
                 <p>Enter your Password</p>
-                <input style={{height:'45px'}} type="password" placeholder='Enter your Password' />
+                <input type="password" placeholder='Enter your Password' />
                 <Button variant="contained" disableElevation>
                     Sign up
                 </Button>

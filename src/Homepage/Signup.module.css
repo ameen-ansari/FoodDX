@@ -138,7 +138,7 @@
 
   .login {
     width: 85vw;
-    height: 80vh;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -155,7 +155,7 @@
     width:100%;
   }
   .login input:nth-child(5) {
-    height: 45px !important;
+    height: 35px !important;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
@@ -163,7 +163,7 @@
     outline: 0;
   }
   .login input:nth-child(8) {
-    height: 45px !important;
+    height: 35px !important;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
@@ -178,8 +178,8 @@
     justify-content:space-between;
   }
   .twoinputs input{
-    width: 32vw;
-    height: 45px;
+    width: 33vw;
+    height: 35px;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
@@ -213,5 +213,44 @@
     width: 35px;
     height: 45px;
     margin: 0rem 0.3rem;
+  }
+  .login button:nth-child(9) {
+    align-self: flex-end;
+    width: 125px;
+    height: 35px;
+    margin: 0.4rem 0px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--orange);
+    border-radius: 7px;
+    border: none;
+    color: white;
+  }
+  .login p:nth-child(2) {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
+
+@media (max-height:500px){
+  .login img {
+    display: none;
+  }
+  .login input {
+    height: 30px;
+  }
+  .login p:nth-child(2) {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .head p:nth-child(1) {
+    display: none;
+  }
+  .head p:nth-child(2) {
+  display: none;
   }
 }
