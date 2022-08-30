@@ -212,4 +212,7 @@
   .login div:nth-child(1) > p:nth-child(2) {
     display: none;
   }
+  .login {
+    height: 90%;
+  }
 }

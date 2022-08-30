@@ -155,7 +155,7 @@
     width:100%;
   }
   .login input:nth-child(5) {
-    height: 35px !important;
+    height: 35px;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
@@ -163,7 +163,7 @@
     outline: 0;
   }
   .login input:nth-child(8) {
-    height: 35px !important;
+    height: 35px;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 300;
