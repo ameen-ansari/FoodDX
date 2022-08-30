@@ -1,10 +1,5 @@
 import styles from './ForgotP.module.css'
-import React, { useState } from 'react'
 import { Button } from '@mui/material'
-import img1 from '../Images/fb.png'
-import img3 from '../Images/Group 50.png'
-import img4 from '../Images/iph.png'
-import { Link } from "react-router-dom";
 
 export default function Login() {
     return (

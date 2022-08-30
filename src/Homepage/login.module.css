@@ -143,14 +143,13 @@
   } 
   .login {
     width: 85vw;
-    height: 85%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
     margin-right: 7%;
     padding: 2rem;
-  
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.659);
   }
@@ -185,7 +184,7 @@
     height: 45px;
     margin: 0rem 0.3rem;
   }
-  .login div:nth-child(1) > p:nth-child(1) {
+  .head p:nth-child(1) {
     width:75% ;
     font-family: 'Quicksand';
     font-weight: 700;
@@ -200,18 +199,6 @@
     font-weight: 300;
     font-size: 12px;
     line-height: 19.5px;
-  }
-  .login button:nth-child(9) {
-    align-self: flex-end;
-    width: 125px;
-    height: 35px;
-    margin: 0.4rem 0px;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: var(--orange);
-    border-radius: 7px;
-    border: none;
-    color: white;
   }
 }
 
