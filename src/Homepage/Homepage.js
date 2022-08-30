@@ -4,6 +4,7 @@ import Explorefoods from './Explorefoods'
 import Questions from './Questions'
 import Header from './Header'
 import Testimonial from './Testimonial'
+import ForgotP from "./ForgotP"
 
 
 

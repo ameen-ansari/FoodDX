@@ -1,0 +1,172 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Images/loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .login {
+    width: 50vw;
+    height:85%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.659);
+  }
+  .head{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login div:nth-child(1) > p:nth-child(1) {
+    width:100% ;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .login > div > p > span {
+    color: var(--orange);
+  }
+  .login div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .login p:nth-child(2) {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .login input:nth-child(3) {
+    width: 80%;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    border-color: gray;
+    outline: 0;
+  }
+  .login p:nth-child(4) {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .login p:nth-child(6) {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .login input:nth-child(5) {
+    width: 80%;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    border-color: gray;
+    outline: 0;
+  }
+  .login button:nth-child(6) {
+    align-self: center;
+    width: 165px;
+    height: 45px;
+    margin: 0.4rem 0px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--orange);
+    border-radius: 7px;
+    border: none;
+    color: white;
+  }
+  .head p:nth-child(1) span:nth-child(1) {
+    color: var(--orange);
+    text-decoration: none;
+  }
+  .login img {
+    display: none;
+  }
+  
+  @media (max-width:700px){
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../Images/loginbg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    } 
+    .login {
+      width: 85vw;
+      height: 85%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      margin-right: 7%;
+      padding: 2rem;
+    
+      border-radius: 18px;
+      background-color: rgba(255, 255, 255, 0.659);
+    }
+    .login input:nth-child(3) {
+      width: 100%;
+      height: 45px;
+      border-radius: 7px;
+      font-size: 14px;
+      font-weight: 300;
+      border-color: gray;
+      outline: 0;
+      text-align: center;
+      align-self: center;
+    }
+    .login input:nth-child(5) {
+      width: 100%;
+      height: 45px;
+      border-radius: 7px;
+      font-size: 14px;
+      font-weight: 300;
+      border-color: gray;
+      outline: 0;
+      text-align: center;
+      align-self: center;
+    }
+    .login div:nth-child(1) > p:nth-child(1) {
+      width:75% ;
+      font-family: 'Quicksand';
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: start;
+    }
+    .login button:nth-child(6) {
+      align-self: flex-end;
+      width: 125px;
+      height: 35px;
+      margin: 0.4rem 0px;
+      font-size: 20px;
+      font-weight: 500;
+      background-color: var(--orange);
+      border-radius: 7px;
+      border: none;
+      color: white;
+    }
+  }
+  

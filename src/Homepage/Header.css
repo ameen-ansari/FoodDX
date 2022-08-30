@@ -78,6 +78,13 @@
 .rhead {
     width: 50%;
 }
+.rhead > ul li {
+    cursor: pointer;
+}
+.rhead > ul li:hover {
+    color: black;
+    cursor: pointer;
+}
 .rhead > ul {
     display: flex;
     align-items: center;
@@ -135,7 +142,7 @@
     text-align: center;
 }
 .burger {
-    /* display: none; */
+    display: none;
     cursor: pointer;
     position: absolute;
     top:1.3rem ;
@@ -143,7 +150,6 @@
     font-size: 2rem;
     font-weight: 700;
     user-select: none;
-
 }
 .Offcanvas {
     width: 75vw;
@@ -178,7 +184,12 @@
   .Offcanvas ul li {
     width: 75%;
     margin: auto;
-  }
+        cursor: pointer;
+    }
+    .Offcanvas > ul li:hover {
+        color: black;
+        cursor: pointer;
+    }
   .Offcanvas button {
     background-color: white;
     border-radius: 2px;

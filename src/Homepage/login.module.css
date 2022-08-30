@@ -29,7 +29,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.login div:nth-child(1) > p:nth-child(1) {
+.login > div:nth-child(1) > p:nth-child(1) {
   width:70% ;
   font-family: 'Quicksand';
   font-weight: 600;
@@ -99,7 +99,7 @@
   border-color: gray;
   outline: 0;
 }
-.login div:nth-child(8) {
+.fgp {
   font-family: 'roboto';
   font-weight: 700;
   font-size: 15px;
@@ -215,8 +215,14 @@
   }
 }
 
-@media (max-height:500px){
+@media (max-height:480px){
   .login img {
+    display: none;
+  }
+  .login div:nth-child(1) > p:nth-child(1) {
+    display: none;
+  }
+  .login div:nth-child(1) > p:nth-child(2) {
     display: none;
   }
 }

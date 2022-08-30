@@ -234,7 +234,7 @@
   }
 }
 
-@media (max-height:500px){
+@media (max-height:480px){
   .login img {
     display: none;
   }

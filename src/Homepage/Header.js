@@ -83,7 +83,7 @@ export default function Header(props) {
           <p>Savings</p>
         </div>
       </div>
-      <div className="burger" onClick={props.showof}>
+      <div className="burger"  onClick={props.showof}>
         <p>&#8801;</p>
       </div>
 
