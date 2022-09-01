@@ -2,6 +2,7 @@ import styles from './ForgotP.module.css'
 import { Button } from '@mui/material'
 
 export default function Login() {
+    
     return (
         <div className={styles.container}>
             <div className={styles.login}>

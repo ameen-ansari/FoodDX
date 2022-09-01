@@ -16,7 +16,7 @@ export default function Login() {
                     <p>Welcome to <span>FoodDX</span></p>
                     <p>No Account ?
                         <Link to="/signup" style={{ textDecoration: 'none' }}>
-                            <span> Sign up</span>
+                            <span>  Sign up</span>
                         </Link>
                     </p>
                 </div>

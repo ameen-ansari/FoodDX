@@ -18,12 +18,12 @@ export default function Login() {
                 </div>
                 <p>Sign up</p>
                 <div>
-                    <img src={img3} alt="" />
+                    <img src={img3} alt=" " />
                     <img src={img1} alt="" />
                     <img src={img4} alt="" />
                 </div>
                 <p>Enter username or email  address</p>
-                <input type="text" placeholder='Enter username or email address' />
+                <input type="email" placeholder='Enter username or email address' />
                 <div className={logincss.twoinputs} >
                     <div>
                         <p>User Name</p>

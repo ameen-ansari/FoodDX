@@ -85,8 +85,8 @@
 }
 .login button:nth-child(6) {
   align-self: center;
-  width: 165px;
-  height: 45px;
+  width: 140px;
+  height: 40px;
   margin-top: 2rem;
   font-size: 20px;
   font-weight: 700;
@@ -159,7 +159,7 @@
   }
   .login button:nth-child(6) {
     align-self: center;
-    width: 125px;
+    width: 120px;
     height: 35px;
     margin: 0.4rem 0px;
     font-size: 20px;

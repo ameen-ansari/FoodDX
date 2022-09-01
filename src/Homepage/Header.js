@@ -57,7 +57,7 @@ export default function Header(props) {
             <li>Reviews</li>
             <li>FAQ</li>
           </ul>
-          <Link to="/login" style={{ textDecoration: 'none' }}>
+          <Link to="/Home" style={{ textDecoration: 'none' }}>
             <Button variant="contained" style={{ backgroundColor: "var(--orange)", color: 'white', }} disableElevation className="bnnb">
               Log In
             </Button>
