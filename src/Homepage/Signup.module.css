@@ -136,7 +136,7 @@
     align-items: center;
   }
   .login {
-    width: 85%;
+    width: 95%;
     height: 540px;
     display: flex;
     flex-direction: column;
