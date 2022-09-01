@@ -142,7 +142,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding:0.5rem 1rem;
+    padding:0.5rem 0.2rem;
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.659);
   }
@@ -161,12 +161,6 @@
     line-height: 19.5px;
     text-align: end;
   }
-  /* .login div:nth-child(6) {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width:100%;
-  } */
   .login > input {
     height: 35px;
     border-radius: 7px;
