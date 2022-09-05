@@ -18,5 +18,28 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDCS2NlsDcth1N3qLAZLfZRr95TA2DyEOo",
+        authDomain: "fooddx.firebaseapp.com",
+        projectId: "fooddx",
+        storageBucket: "fooddx.appspot.com",
+        messagingSenderId: "25362262642",
+        appId: "1:25362262642:web:3d99ae0bcd17412eadf0eb",
+        measurementId: "G-H3H9QESF2Q"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
