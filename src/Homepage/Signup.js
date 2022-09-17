@@ -6,9 +6,23 @@ import img1 from '../Images/fb.png'
 import img3 from '../Images/Group 50.png'
 import img4 from '../Images/iph.png'
 import { Link } from "react-router-dom";
+import { useState } from 'react'
 
 
 export default function Login() {
+    const [values, setvalues] = useState({
+        email : "",
+        userName : "",
+        phoneNumber : "",
+        password : "",
+        uid : ""
+    })
+    function register() {
+        
+        console.log(values);
+        setvalues({email:"ameen123"})
+        console.log("Register Called");
+    }
     return (
         <div className={logincss.container}>
             <div className={logincss.login}>
@@ -36,7 +50,7 @@ export default function Login() {
                 </div>
                 <p>Enter your Password</p>
                 <input type="password" placeholder='Enter your Password' />
-                <Button variant="contained" disableElevation>
+                <Button onClick={register} variant="contained" disableElevation>
                     Sign up
                 </Button>
             </div>
