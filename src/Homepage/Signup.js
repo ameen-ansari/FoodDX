@@ -1,27 +1,46 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import logincss from "./Signup.module.css"
 import { Button } from '@mui/material'
 import img1 from '../Images/fb.png'
-// import img2 from '../Images/google.png'
 import img3 from '../Images/Group 50.png'
 import img4 from '../Images/iph.png'
-import { Link } from "react-router-dom";
-import { useState } from 'react'
-
+import { Link, useNavigate } from "react-router-dom";
+import { auth } from "../Firebase"
+import { createUserWithEmailAndPassword } from 'firebase/auth'
+import { db } from '../Firebase'
+import { addDoc, collection } from 'firebase/firestore'
 
 export default function Login() {
-    const [values, setvalues] = useState({
-        email : "",
-        userName : "",
-        phoneNumber : "",
-        password : "",
-        uid : ""
+    let navigate = useNavigate()
+    let [values, setvalues] = useState({
+        email: "",
+        userName: "",
+        phoneNumber: "",
+        password: "",
+        uid: ""
     })
-    function register() {
-        
-        console.log(values);
-        setvalues({email:"ameen123"})
-        console.log("Register Called");
+    function register(e) {
+        let inputs = { [e.target.name]: e.target.value }
+        setvalues({ ...values, ...inputs })
+    }
+    async function submit() {
+        try {
+            let obj = await createUserWithEmailAndPassword(auth, values.email, values.password)
+            let user = obj.user.uid 
+            setvalues(values.uid = user)
+            alert('Acount Created Successfully')
+            navigate('/')
+            await addDoc(collection(db ,"users"),values)
+            setvalues({
+                email: "",
+                userName: "",
+                phoneNumber: "",
+                password: "",
+                uid:""
+            })
+        } catch (e) {
+            alert(e.message)
+        }
     }
     return (
         <div className={logincss.container}>
@@ -37,20 +56,20 @@ export default function Login() {
                     <img src={img4} alt="" />
                 </div>
                 <p>Enter username or email  address</p>
-                <input type="email" placeholder='Enter username or email address' />
+                <input type="email" value={values.email} onChange={register} name="email" placeholder='Enter username or email address' />
                 <div className={logincss.twoinputs} >
                     <div>
                         <p>User Name</p>
-                        <input  type="text" placeholder='User Name' />
+                        <input type="text" value={values.userName} onChange={register} name="userName" placeholder='User Name' />
                     </div>
                     <div>
                         <p>Contact #</p>
-                        <input  type="text" placeholder='Contact Number' />
+                        <input type="text" value={values.phoneNumber} onChange={register} name="phoneNumber" placeholder='Contact Number' />
                     </div>
                 </div>
                 <p>Enter your Password</p>
-                <input type="password" placeholder='Enter your Password' />
-                <Button onClick={register} variant="contained" disableElevation>
+                <input type="password" value={values.password} onChange={register} name="password" placeholder='Enter your Password' />
+                <Button onClick={submit} variant="contained" disableElevation>
                     Sign up
                 </Button>
             </div>

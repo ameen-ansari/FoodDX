@@ -3,9 +3,17 @@ import './Header.css'
 import { Button } from '@mui/material'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import './Headermedia.css'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { auth } from '../Firebase'
+import { useEffect, useState } from 'react'
+import { onAuthStateChanged, signOut } from 'firebase/auth'
 
-export default function Header(props) {
+function Header(props) {
+  let nevigate = useNavigate()
+  function logout() {
+    signOut(auth)
+    nevigate('/login')
+  }
 
   return (
     <>
@@ -17,11 +25,9 @@ export default function Header(props) {
           <li>Reviews</li>
           <li>FAQ</li>
         </ul>
-        <Link to="/login" style={{ textDecoration: 'none' }}>
-          <Button style={{ backgroundColor: "white", color: 'black', }} variant="contained" disableElevation>
-            Sign In
-          </Button>
-        </Link>
+        <Button style={{ backgroundColor: "white", color: 'black', }} variant="contained" disableElevation>
+          Login
+        </Button>
       </div>
       <div className="header">
         <div className="lhead">
@@ -58,8 +64,8 @@ export default function Header(props) {
             <li>FAQ</li>
           </ul>
           <Link to="/login" style={{ textDecoration: 'none' }}>
-            <Button variant="contained" style={{ backgroundColor: "var(--orange)", color: 'white', }} disableElevation className="bnnb">
-              Log In
+            <Button variant="contained" style={{ backgroundColor: "var(--orange)", color: 'white' }} onClick={logout} disableElevation className="bnnb">
+              {props.logger}
             </Button>
           </Link>
           <img src={img1} alt="" />
@@ -83,10 +89,11 @@ export default function Header(props) {
           <p>Savings</p>
         </div>
       </div>
-      <div className="burger"  onClick={props.showof}>
+      <div className="burger" onClick={props.showof}>
         <p>&#8801;</p>
       </div>
 
     </>
   )
 }
+export default Header
