@@ -4,13 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA8-Yxyh6Bo0hgcqSgP-YO6LTshETp8Qds",
-  authDomain: "fooddx-aa127.firebaseapp.com",
-  databaseURL: "https://fooddx-aa127-default-rtdb.firebaseio.com",
-  projectId: "fooddx-aa127",
-  storageBucket: "fooddx-aa127.appspot.com",
-  messagingSenderId: "845272473894",
-  appId: "1:845272473894:web:8f29f7a4485c2a9c2361e7"
+  apiKey: "AIzaSyCBKPK8A-h4umluAtHjlY0VPkssRdt6rio",
+  authDomain: "food-dx.firebaseapp.com",
+  projectId: "food-dx",
+  storageBucket: "food-dx.appspot.com",
+  messagingSenderId: "503662140437",
+  appId: "1:503662140437:web:4f26b8f0c6cefcd208c21c"
 };
 
 // Initialize Firebase
